@@ -1,0 +1,47 @@
+Database: php dasar
+table: mahasiswa
+
+id int primary key auto_increment
+nama varchar(100)
+nrp varchar(10)
+email varchar(100)
+jurusan varchar(100)
+gambar varchar(100)
+
+syntax:
+
+show databases;
+
+create database phpdasar;
+
+use phpdasar;
+
+create table mahasiswa (
+id int primary key auto_increment,
+nama varchar(100),
+nrp char(9),
+email varchar(100),
+jurusan varchar(100),
+gambar varchar(100)
+);
+
+describe mahasiswa;
+
+//sesuai urutan field
+insert into mahasiswa values ('', 'howard', '00000000772', 'howard@student.umn.ac.id', 'Teknik Informatika', 'howard.jpeg');
+
+select * from mahasiswa;
+
+select nrp from mahasiswa;
+
+select nama,nrp from mahasiswa;
+
+select * from mahasiswa where nrp = '00000099772';
+
+update mahasiswa set jurusan = 'Teknik industri' where id = 2;
+
+delete from mahasiswa where id = 3;
+
+drop table mahasiswa; // hapus semua table
+
+drop database phpdasar

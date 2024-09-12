@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.bungkusan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    height: 400px;
+    width: 150px;
+}
+
+h2,h3,h4, p{
+    margin: 0;
+}

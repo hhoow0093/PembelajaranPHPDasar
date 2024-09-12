@@ -1,0 +1,24 @@
+Built in function dalam PHP
+A. Date/Time
+time()
+date()
+parameter date()
+1. l -> menampilkan hari dalam kata
+2. d -> menampilkan tanggal dalam nomor
+3. m -> menampilkan bulan dalam nomor
+4. M -> menampilkan bulan dalam kata
+mktime()
+strtotime()
+
+B. string
+strlen()
+strcmp()
+explode()
+htmlspecialchars()
+
+C. utility
+var_dump()
+isset() -> boolean, apakah sebuah variabel sudah pernah dibikin atau belum
+empty() -> jika variabel kosong atau enggak
+die() -> memperhentikan program kita
+sleep() -> memperhentikan beberapa detik

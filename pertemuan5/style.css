@@ -1,0 +1,15 @@
+.kotak{
+    height: 50px;
+    width: 50px;
+    background-color: salmon;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    margin:10px;
+    line-height: 50px;
+    float: left;
+}
+
+.no-display{
+    display: none;
+}
