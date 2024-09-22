@@ -171,3 +171,30 @@ function registrasi($data)
     mysqli_query($koneksi, $perintah);
     return mysqli_affected_rows($koneksi);
 }
+
+function login($data){
+    global $koneksi;
+    $username = $data["username"];
+    $password = $data["password"];
+
+    $perintah = "SELECT * FROM user WHERE username = '$username'";
+
+    $result = mysqli_query($koneksi, $perintah);
+
+    if(mysqli_num_rows($result) === 1){
+        $row = mysqli_fetch_assoc($result);
+        $passwordDatabse = $row["password"];
+
+        if(password_verify($password, $passwordDatabse)){
+            return 1;
+        }
+        else{
+            return 0; //password salah
+        }
+
+    }
+    else{
+        return -1; //username tidak ada.
+    }
+
+}

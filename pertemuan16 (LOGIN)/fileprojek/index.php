@@ -41,6 +41,7 @@ if(isset($_POST["cari"])){
     <h1>daftar mahasiswa</h1>
     <div style="text-align:center; margin:20px 0px;">
         <a href="./nambah.php">tambah data mahasiswa</a>
+        <a href="./registrasi.php">registrasi user</a>
     </div>
 
     <div style="text-align:center; margin:20px 0px;">

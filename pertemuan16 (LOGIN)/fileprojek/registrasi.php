@@ -38,6 +38,11 @@ if (isset($_POST['register'])) {
         display: flex;
         justify-content: space-between;
     }
+    
+    h1{
+        width: 400px;
+        margin: auto;
+    }
 </style>
 
 <body>
