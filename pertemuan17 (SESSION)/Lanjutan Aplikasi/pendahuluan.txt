@@ -1,0 +1,6 @@
+FILE Handling 
+
+<input type="file">
+enctype
+$_FILES
+move_uploaded_file
