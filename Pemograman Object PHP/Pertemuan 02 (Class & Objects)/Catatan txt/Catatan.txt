@@ -1,0 +1,5 @@
+Class -> Merupakan sebuah template atau blueprint untuk membangun instance sebuah objek
+Class -> Mendefinisikan sebuah Object
+Class -> Menyimpan property dan method
+
+Object -> hasil template dari pembuatan class

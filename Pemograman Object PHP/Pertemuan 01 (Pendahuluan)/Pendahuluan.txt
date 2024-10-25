@@ -1,0 +1,38 @@
+Pada playlist pembelajaran PHP dasar, kita selama ini menggunakan pemograman secara procedural, BUKAN OBJEK.
+
+Keuntungan menggunakan metode procedural dalam PHP:
+1. Implementasinya yang lebih sederhana.
+2. Pergerakkan secara linear pada sebuah program.
+3. Memecah sebuah masalah Utama menjadi masalah masalah yang lebih kecil.
+4. Memory yang digunakan lebih sedikit dibanding OOP.
+
+Contoh : C, pascal, dll.
+
+Konsep dalam pemograman PHP OOP:
+1. Menyusun kode program kita menjadi objek.
+2. setiap objek merupakan sebuah unit dasar dalam pemograman yang bisa kita mengubah perilaku dan data sebuah program ataupun berinteraksinya.
+
+Contoh: Java, Ruby, Python, C#, PHP5.
+
+Kelebihan pemograman menggunakan OOP PHP:
+1. Reusability
+2. Pengelolaan yang lebih mudah
+3. kolaborasi
+4. digunakan oleh framework
+
+Konsep basic:
+1. Class and Object
+2. Property and method
+3. Constructor
+4. Object type
+5. Inheritance
+6. Visibility / Access Modifier
+7. Setter & Getter
+8. Static method
+
+Konsep advanced
+1. Abstract, Interface
+2. Interceptor
+3. Object cloning
+4. Callback & closure
+5. Namespaces & Autoloading
