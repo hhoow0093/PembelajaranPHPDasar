@@ -1,0 +1,26 @@
+M = Model -> Data 
+1. Representasi Pengetahuan
+2. Mengelola Data
+3. Logika bisnis
+
+V = view -> Tampilan
+1. Output, apa yang bisa dilihat oleh user
+2. Representasi visual dari Model
+3. Lapisan peresentasi
+
+C = controller -> Proses
+1. Perantara antara model dan view
+2. Menangani pemrosesan pada aplikasi
+3. Menangani aksi dari user
+
+Tujuan MVC
+1. untuk memisahkan antara ketiga MVC.
+
+Manfaat MVC
+1. Organisasi dan Struktur code
+2. Pemisahan logic dan Tampilan
+3. Perawatan kode
+4. Implementasi konsep OOP
+5. Digunakan oleh banyak Web application framework
+
+// biar url juga lebih rapi
