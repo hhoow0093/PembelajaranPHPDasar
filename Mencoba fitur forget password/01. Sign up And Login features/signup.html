@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <!--using classless css, water.css for styling--->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style>
+        .form-container{
+            width: 300px;
+            margin-inline: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>sign up page</h1>
+        <form action="process-signup.php" method="post" novalidate id="sign-up">
+            <div>
+                <label for="username">username</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div>
+                <label for="email">email adress</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="password">password</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div>
+                <label for="confirm-password">confirm password</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+            </div>
+            <div>
+                <button type="submit">submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <script src="./js/validation.js"></script>
+</body>
+</html>
