@@ -14,4 +14,3 @@ MariaDB [sistem_login]> ALTER TABLE users
 Query OK, 0 rows affected (0.118 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 
-smptp pass = uioz hsfu kuae bocf
